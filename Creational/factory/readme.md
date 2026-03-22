@@ -1,0 +1,14 @@
+Factory Design Pattern
+
+Factory Design Pattern is a creational design pattern that provides a way to create objects from a centralized place without exposing the object creation logic to the client.
+It is useful when the type of object needs to be decided at runtime and makes it easy to add new object types.
+
+Key Points
+
+Object creation happens at one centralized place (factory class)
+Object type can be decided at runtime
+Client code does not know how the object is created
+Easy to extend by adding new object types
+
+
+Factory Pattern creates objects through a factory class instead of directly using new, hiding the creation logic and allowing object type to be decided at runtime.
